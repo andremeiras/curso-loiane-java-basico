@@ -1,4 +1,6 @@
-package com.andremeiras.cursojava.loiane.aula38;
+package com.andremeiras.cursojava.loiane.aula39.teste;
+
+import com.andremeiras.cursojava.loiane.aula39.Pessoa;
 
 public class Aluno extends Pessoa {
 
@@ -31,6 +33,12 @@ public class Aluno extends Pessoa {
 
 	public boolean verificarAprovacao() {
 		return true;
+	}
+
+	public void verificarAcesso() {
+		this.nomeVisibilidade = "asdfadfads";
+		super.nomeVisibilidade = "234adswfads";
+		
 	}
 
 }

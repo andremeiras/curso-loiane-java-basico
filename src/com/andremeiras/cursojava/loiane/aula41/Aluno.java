@@ -1,4 +1,4 @@
-package com.andremeiras.cursojava.loiane.aula38;
+package com.andremeiras.cursojava.loiane.aula41;
 
 public class Aluno extends Pessoa {
 
@@ -31,6 +31,20 @@ public class Aluno extends Pessoa {
 
 	public boolean verificarAprovacao() {
 		return true;
+	}
+
+	@Override
+	public String obterEtiquetaEndereco() {
+		String newEndereco = "Endereço do aluno: ";
+		newEndereco += super.getEndereco();
+
+		return newEndereco;
+	}
+
+	@Override
+	public void imprimirEtiquetaEndereco() {
+		System.out.println("IMPRIMINDO ENDEREÇO DO ALUNO");
+		System.out.println(this.obterEtiquetaEndereco());
 	}
 
 }
