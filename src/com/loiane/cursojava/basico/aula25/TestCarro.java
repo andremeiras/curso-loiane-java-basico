@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula25;
+package com.loiane.cursojava.basico.aula25;
 
 public class TestCarro {
 	
