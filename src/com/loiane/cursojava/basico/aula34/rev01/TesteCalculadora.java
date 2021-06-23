@@ -18,6 +18,9 @@ public class TesteCalculadora {
 
 		Calculadora.elevarPotenciaN(3, 3);
 		System.out.println("[n^] \t- " + Calculadora.mostrarResultado());
+		
+		Calculadora.calcularFatorial(7);
+		System.out.println("[f] \t- " + Calculadora.mostrarResultado());
 
 	}
 
