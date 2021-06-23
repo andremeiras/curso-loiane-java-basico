@@ -17,6 +17,10 @@ public class Calculadora {
 		result = n1 - n2;
 	}
 
+	public static void multiplicar(int n1, int n2) {
+		result = n1 * n2;
+	}
+	
 	public static void dividir2Numeros(int n1, int n2) {
 		result = n1 / n2;
 	}
