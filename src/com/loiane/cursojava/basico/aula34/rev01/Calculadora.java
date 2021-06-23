@@ -7,9 +7,7 @@ package com.loiane.cursojava.basico.aula34.rev01;
  */
 public class Calculadora {
 
-	private static int n1;
-	private static int n2;
-	private static int result;
+	private static double result;
 
 	public static void somar(int n1, int n2) {
 		result = n1 + n2;
@@ -24,7 +22,11 @@ public class Calculadora {
 	}
 
 	public static void elevarPotenciaN(int n, int p) {
-		Math.pow(n, p);
+		result = Math.pow(n, p);
+	}
+
+	public static String mostrarResultado() {
+		return "Resultado: " + result;
 	}
 
 }
